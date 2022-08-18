@@ -18,6 +18,21 @@
 // 82 -> 10
 // 9012 -> 12
 
+// int sum (int num)
+// {
+//     int result = 0;
+//     while (num > 0)
+//     {
+//         result = result + num % 10;
+//         num = num / 10;
+//     }
+//     return result;
+// }
+
+// System.Console.WriteLine("Введите число:");
+// int number = Convert.ToInt32(Console.ReadLine());
+// System.Console.WriteLine($"Сумма цифр в числе [{number}] = [{sum(number)}]");
+
 // Задача 29: Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
 // 1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
 // 6, 1, 33 -> [6, 1, 33]
